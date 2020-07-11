@@ -1,0 +1,8 @@
+nav {
+  color: black;
+  height: 60px;
+}
+.nav-wrapper {
+  background-color: white !important;
+  color: black !important;
+}

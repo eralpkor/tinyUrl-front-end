@@ -12,7 +12,7 @@ function Header() {
           className='left brand-logo'
           style= {{ left: '0px', color: 'black'}}
         >
-        Custom URL Shortener
+        URL Shortener
         </Link>
       </div>
     </nav>

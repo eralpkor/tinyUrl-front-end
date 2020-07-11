@@ -35,18 +35,17 @@ console.log(shortUrl, "hello ali")
         <input className='Form-menu'
           type='url'
           name='originalUrl'
-          placeholder='Enter long url'
+          placeholder='http://www.example.com'
           value={original}
           onChange={handleChange}
         />
         <button className='btn' >Get Short URL</button>
       </form>
-      {/* {console.log(shortUrl.indexOf('item') > -1)} */}
       {shortUrl.indexOf('item') > -1 ?
-        <p className='App-link'>Loading...</p> : <h3 ><a target="blank" className='App-link' href={shortUrl}>{shortUrl}</a></h3>
+        <p className='App-link'>Loading...</p> : <h3 ><a target="blank" className='App-link' href={shortUrl}>
+          
+          {shortUrl}</a></h3>
       }
-      {/* <h3 ><a target="blank" className='App-link' href={shortUrl}>{shortUrl}</a></h3>
-      <p>{shortUrl}</p> */}
     </div>
   );
 }
